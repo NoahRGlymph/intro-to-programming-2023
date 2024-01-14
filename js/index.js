@@ -20,6 +20,7 @@ for (var i = 0; i < skills.length; i++) {
     var skill = document.createElement('li');
     skill.innertext = skills[i];
     skillsList.appendChild(skill);
+<<<<<<< lesson-4-4
 }
 const messageForm = document.forms.leave_message;
 
@@ -79,3 +80,6 @@ messageForm.addEventListener('submit', function (event) {
         messageList.appendChild(newMessage);
 });
       });
+=======
+}
+>>>>>>> main
